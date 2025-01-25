@@ -6,6 +6,7 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
+    base: '/goit-js-hw-12/',  // Шлях для деплою на GitHub Pages (змініть якщо потрібно)
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
